@@ -1,0 +1,35 @@
+.brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.hero {
+  background: var(--color-surface);
+  border-block-end: 1px solid var(--color-border);
+  padding-block: var(--space-12);
+}
+
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  padding: var(--space-6);
+}
+
+.button {
+  display: inline-block;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius);
+  background: var(--color-accent);
+  color: var(--color-accent-contrast);
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.button--secondary {
+  background: transparent;
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
